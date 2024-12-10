@@ -1,0 +1,423 @@
+*{
+    margin: 0; padding: 0;
+}
+
+
+/* slde first */
+.slide1{
+    background-image: url(img/background.png);
+    background-repeat: round;
+    height: 100vh;
+}
+
+.header{
+    width: 70%;
+    margin: 0 17%;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    animation: 1s navAnimation forwards;
+}
+
+@keyframes navAnimation {
+    from {
+    transform: translateY(-48px);
+    }
+    to {
+    transform: translateY(0);
+    }
+    }
+
+.nav > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button1{
+    background-color: #C9453B;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    border-radius: 5px;
+}
+
+.button1:hover{
+    background-color: #c9453bc1;
+    cursor: pointer;
+}
+
+.button1-2:hover{
+    background-color: #c9453bc1;
+    cursor: pointer;
+}
+
+.button1-2{
+    background-color: #C9453B;
+    color: #fff;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: none;
+    border-radius: 5px;
+    animation: 1.6s button1-2 forwards;
+}
+
+@keyframes button1-2 {
+    from {
+    transform: translateX(-100vw);
+    }
+    to {
+    transform: translateX(0);
+    }
+}
+
+.button1 > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button1 {
+    color: #fff;
+}
+
+
+/* content of slide1 */
+.contentSlide1{
+    width: 70%;
+    margin: 0 15%;
+    color: #fff;
+    animation: 2s contentSlide forwards;  /* название анимации */
+}
+
+@keyframes contentSlide { /* сама анимация */
+    from {
+    transform: translateX(-100vw);
+    }
+    to {
+    transform: translateX(0);
+    }
+}
+
+.h1Content{
+    padding-top: 25%;
+    padding-bottom: 3%;
+    width: 70%;
+    font-size: 65px;
+    font-family: Gelasio;
+}
+
+.pContent{
+    padding-bottom: 3%;
+    width: 40%;
+    color: #7d7d7d;
+    animation: 1.5s pSlideContent forwards;
+}
+
+@keyframes pSlideContent {
+    from {
+    transform: translateX(-100vw);
+    }
+    to {
+    transform: translateX(0);
+    }
+}
+
+/* content of slide1 */
+
+/* slide first */
+
+/* slide second */
+
+.slide2{
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;
+    padding-top: 25vh;
+    height: 80vh;
+}
+
+.h2Slide2{
+    padding-bottom: 3%;
+}
+
+.pSlide2{
+    padding-bottom: 3%;
+}
+
+.section{
+    border: solid 0.2px;
+    border-radius: 10px;
+    height: 50vh;
+    box-shadow: 0px 6px 5px 0px #bfbfbf;
+}
+
+.section:hover{
+    q
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #ffffff;
+    border: solid 0.1px;
+    cursor: pointer;
+}
+
+.imgSights{
+    width: 100%;
+}
+
+h3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: Gelasio;
+}
+
+.slideBox2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* slide second */
+
+/* slide third */
+.slide3{
+    height: 65vh;
+}
+
+.contentSlide3{
+    text-align: center;
+}
+
+.contentSlide3 > h2{
+    padding-bottom: 2%;
+}
+
+.contentSlide3 > p{
+    padding-bottom: 4%;
+}
+
+.section2 > h4{
+    padding-bottom: 3%;
+}
+
+.section2 > p{
+    padding-bottom: 4%;
+}
+
+.slidebox3{
+    display: flex;
+    gap: 100px;
+    overflow: hidden;
+}
+
+.slideLine{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.lines{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 10%;
+    margin: 0 -30%;
+}
+
+.line1{
+    border-radius: 5px;
+    background-color: #e09c99;
+    width: 80px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.line2{
+    border-radius: 5px;
+    background-color: #d14035;
+    width: 80px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.line3{
+    border-radius: 5px;
+    background-color: #e09c99;
+    width: 80px;
+    height: 5px;
+    cursor: pointer;
+}
+
+.imgArrow{
+    cursor: pointer;
+}
+
+/* slide third */
+
+/* slide fourth */
+
+.slide4{
+    padding-bottom: 8%;
+}
+
+.contentSlide4{
+    text-align: center;
+}
+
+.contentSlide4 > h1{
+    padding-top: 6%;
+    padding-bottom: 2%;
+}
+
+
+.contentSlide4 > p{
+    padding-bottom: 4%;
+}
+.section4 > h3{
+    padding-top: 2.9%;
+    padding-bottom: 2%;
+}
+
+.imgContent{
+    width: 1300px;
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    gap: 2%;
+}
+
+.section4{
+    width: auto;
+    border-radius: 10px;
+}
+
+.section4:hover{
+    transition: ease-in all 0.5s;
+    transform: translateY(-18px);
+    box-shadow: 0px 6px 5px 0px #bfbfbf;
+    border: solid 0.1px;
+    cursor: pointer;
+}
+
+.pSection2{
+    padding-bottom: 2%;
+}
+
+.section4-2{
+    display: flex;
+    width: auto;
+    gap: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.section4-2:hover{
+    transition: ease-in all 0.5s;
+    transform: translateY(-18px);
+    box-shadow: 0px 6px 5px 0px #bfbfbf;
+    border: solid 0.1px;
+    cursor: pointer;
+}
+
+.tribleSection4{
+    width: auto;
+
+}
+
+.tribleSection4-2{
+    width: 47%;
+}
+.m0{
+    margin-top: 0;
+}
+
+/* slide fourth */
+
+/* footer */
+.footer{
+    background-color: #2693992e;
+    padding: 4%;
+}
+
+.aContentimg{
+    display: flex;
+    gap: 20px;
+}
+
+.linkContent > a{
+    text-decoration: none;
+    color: #000;
+}
+
+.pfooter{
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+.pfooter2{
+    padding-bottom: 15%;
+}
+
+.linkContent2 > a{
+    text-decoration: none;
+    color: #000;
+}
+
+.content-footer{
+    width: 70%;
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkContent{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.linkContent2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subInput{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+#input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: larger;
+    border: solid #6c6c6c 0.2px;
+    border-radius: 5px;
+}
+
+.button2{
+    background-color: #C9453B;
+    color: #fff;
+    padding-top: 30.5%;
+    padding-bottom: 30.5%;
+    padding-left: 100%;
+    padding-right: 100%;
+    border: none;
+    border-radius: 3px
+}
+
+.button2:hover{
+    background-color: #c9453bc1;
+    cursor: pointer;
+}
+/* footer */
